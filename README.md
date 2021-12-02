@@ -37,7 +37,7 @@ Instalación frontend y backend:
 Start frontend:  
   npm start 
 
-start backend:  
+Start backend:  
   node index.js
 
 Run cypress:  
@@ -58,4 +58,4 @@ Métodos
 
 Fixtures
   - rewards.json
-    [{id, reward, month}]
+    [{id: number, reward: string, month: string}]
