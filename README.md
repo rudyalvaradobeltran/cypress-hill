@@ -1,13 +1,16 @@
 ### CYPRESS-HILL
 
 Proyecto de test E2E con Cypress sobre proyecto frontend React.
-
-Instalación:
-  - npm install
-
-Run cypress
-  - npx cypress open
 #### Proyecto 1: Gestión de hábitos y logros (frontend)
+
+Instalación:  
+  npm install
+
+Start:  
+  npm start 
+
+Run cypress:  
+  npx cypress open  
 
 Archivos de tests:  
 cypress / integration
@@ -28,6 +31,18 @@ Comandos
   
 #### Proyecto 2: Gestión de logros y recompensas (frontend y backend node.js)
 
+Instalación cliente y backend:  
+  npm install
+
+Start frontend:  
+  npm start 
+
+start backend:  
+  node index.js
+
+Run cypress:  
+  npx cypress open  
+
 Archivos de tests:  
 client / cypress / integration
   - accomplishment.spec.js  
@@ -42,4 +57,5 @@ Métodos
   - Click
 
 Fixtures
-  - [{id, reward, month}]
+  - rewards.json
+    [{id, reward, month}]
