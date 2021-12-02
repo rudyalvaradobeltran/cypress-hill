@@ -31,7 +31,7 @@ Comandos
   
 #### Proyecto 2: Gestión de logros y recompensas (frontend y backend node.js)
 
-Instalación cliente y backend:  
+Instalación frontend y backend:  
   npm install
 
 Start frontend:  
